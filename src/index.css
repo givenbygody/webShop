@@ -21,7 +21,14 @@ body {
 header .logo {
     font-weight: 800;
     font-size: 20px;
+    cursor: pointer;
+    transition: opacity 500ms ease;
 
+}
+
+header .logo:hover {
+    
+    opacity: 0.5;
 }
 
 header .presentation {
@@ -76,6 +83,7 @@ header ul.nav li {
 }
 
 header ul.nav li:hover{
-    opacity: 0,5;
+    opacity: 0.5;
 
 }
+

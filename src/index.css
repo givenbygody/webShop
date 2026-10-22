@@ -40,9 +40,20 @@ header .presentation::after{
     content: "Don`t care Hommy do this perfect";
     position: absolute;
     top: 100px;
-    left: 100px;
+    left: 50px;
     width: 300px;
     font-size: 40px;
     font-weight:500;
     color: #fff;
+}
+
+header .presentation::before {
+    content: "make everything for you";
+    position: absolute;
+    top: 250px;
+    left:50px;
+    width: 300px;
+    font-size: 15px;
+    font-weight: 300;
+    color:#fff;
 }
